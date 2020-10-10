@@ -5,10 +5,18 @@ public class Caneta{
   private String cor;
 
   public Caneta(String m, String c, float p){
-    this.modelo = m;
-    this.cor = c;
-    this.ponta = p;
+    this.setModelo(m);
+    this.setCor(c);
+    this.setPonta(p);
     this.tampar();
+  }
+
+  public String getCor(){
+    return this.cor;
+  }
+
+  public void setCor(String c){
+    this.cor = c;
   }
 
   public String getModelo(){
