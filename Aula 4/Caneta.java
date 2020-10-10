@@ -4,9 +4,11 @@ public class Caneta{
   private boolean tampada;
   private String cor;
 
-  public Caneta(){
+  public Caneta(String m, String c, float p){
+    this.modelo = m;
+    this.cor = c;
+    this.ponta = p;
     this.tampar();
-    this.cor = "Azul";
   }
 
   public String getModelo(){
