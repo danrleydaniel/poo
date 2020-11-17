@@ -1,0 +1,30 @@
+Exercício:
+
+1 - Criar uma classe Video, com os seguintes atributos:
+	- título
+	- avaliacao
+	- views
+	- curtidas
+	- reproduzindo
+
+2 - Essa classe implementa a interface AcoesVideo:
+	+ play()
+	+ pause()
+	+ like()
+
+3 - Deve ter uma classe Gafanhoto, com:
+	atributos:
+		- login
+		- totAssistido
+	métodos:
+		+ viuMaisUm()
+
+4 - A classe Gafanhoto deve herdar da classe Pessoa:
+	atributos:
+		# nome
+		# idade
+		# sexo
+		# experiencia
+	métodos:
+		# ganharExp()
+	
