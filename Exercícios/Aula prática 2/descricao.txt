@@ -27,4 +27,13 @@ Exercício:
 		# experiencia
 	métodos:
 		# ganharExp()
-	
+
+5 - Feito isso, é necessário criar uma classe Visualizacao:
+	atributos:
+		- espectador
+		- filme
+	métodos:
+		+ avaliar()
+		+ avaliar(nota)
+		+ avaliar(porc)
+... essa classe precisará fazer uma agregação entre Gafanhoto e Video.
