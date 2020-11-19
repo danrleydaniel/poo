@@ -12,4 +12,4 @@ class Main {
     Visualizacao vis = new Visualizacao(g[0], v[2]);
     vis.mostrar();
   }
-}ua
+}
